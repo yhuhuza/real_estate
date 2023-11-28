@@ -7,9 +7,11 @@ const sourceFolder = './src';
 export const path = {
     build: {
       html: `${outputFolder}/`,
+      assets: `${outputFolder}/`,
       files: `${outputFolder}/`,
     },
     src: {
+      assets: `${sourceFolder}/`,
       files: `${sourceFolder}/**/*.*`,
       html: `${sourceFolder}/*.html`,
     },
